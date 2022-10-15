@@ -15,7 +15,7 @@ div a {
 #background{
     opacity: 65%;
     filter: blur(10px);
-    z-index: 0;
+    z-index: -1;
     position: absolute;
     margin-left: -50px;
 }
@@ -28,6 +28,7 @@ div a {
     width: 30px;
     vertical-align: middle;
     margin: 5px;
+    padding-top: 18px;
 }
 
 #navbar{
@@ -49,6 +50,7 @@ div a {
 
 #right{
     text-align:right;
+    vertical-align: middle;
     height: 100%;
 }
 nav {
@@ -62,3 +64,17 @@ h1{
     position: relative;
 }
 
+.pdf a{
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(201, 201, 201);
+    color: black;
+    width: fit-content;
+}
