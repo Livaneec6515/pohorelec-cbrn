@@ -3,14 +3,19 @@ body{
 }
 #navbar img{
     width: 30px;
-    margin: 2px;
+    vertical-align: middle;
 }
 #navbar{
-    position: fixed;
+    display:flex;
+    justify-content: space-between;
     width: 100%;
 }
 #right{
-    text-align:end;    
+    text-align:right;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; 
+
 }
 nav {
     background-color: purple;
@@ -19,6 +24,7 @@ nav {
 html{
     background-color: white;
 }
-body p{
+p{
     font-size: 200;
+    color: rgb(255, 196, 252);
 }
