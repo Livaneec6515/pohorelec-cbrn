@@ -54,6 +54,7 @@ div a {
 #navbar a{
     text-decoration: none;
     font-size: 1.7rem;
+    letter-spacing: 2px;
     color: white;
 }
 
@@ -80,7 +81,7 @@ ul{
     font-weight: 450;
     margin-top: 5px;
     margin:0;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 #title, .subtit{
@@ -98,17 +99,25 @@ ul{
     text-align: center;
     letter-spacing: 1px;
     margin-top: 10px;
-}
-.imgtrio{
-    text-align: center;
-    margin: auto;
+    line-height: 30px;
 }
 
 #unit{
     text-align: center;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+#unit img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 20rem;
+}
+#unit p{
+    font-size: 2rem;
+    margin: 20px;
+}
 
 
 
