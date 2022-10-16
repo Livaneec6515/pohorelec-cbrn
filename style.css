@@ -2,6 +2,12 @@ body{
     margin: 0;
     width: 100%;
     min-height: 100rem;
+    background-image: url(images/bg-filtration.jpg);
+    max-width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 html{
@@ -11,17 +17,6 @@ html{
 }
 div a {
     text-decoration: none;
-}
-
-#background{
-    opacity: 50%;
-    filter: blur(10px);
-    z-index: -1;
-    position: fixed;
-}
-#background img{
-    width: 100rem;
-    text-align: center;
 }
 
 /* #logo img{
@@ -35,7 +30,7 @@ div a {
     font-size: 3rem;
     padding-right: 15rem;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 15px;
     color: white;
 }
 
@@ -73,21 +68,46 @@ ul{
     background-color: rgba(0, 0, 0, 0.95);
 }
 #title h1{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-family: League Spartan, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     margin:0;
     padding-top: 7rem;
 }
+.subtit h2{
+    font-size: 2rem;
+    font-family: League Spartan, sans-serif;
+    font-weight: 450;
+    margin-top: 5px;
+    margin:0;
+    padding-top: 10px;
+}
 
-#title{
+#title, .subtit{
     z-index: 10;
     text-align: center;
 }
 
+.info{
+    max-width:60rem;
+    margin: auto;
+}
+.info p{
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.imgtrio{
+    text-align: center;
+    margin: auto;
+}
 
-
-
+#unit{
+    text-align: center;
+    margin: auto;
+}
 
 
 
@@ -103,7 +123,7 @@ ul{
 .pdf a{
     color: white;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
     display: flex;
     padding: 15px;   
     border: 2px;
